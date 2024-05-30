@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Varables</title>
+    <style>
+        :root{
+            --arka: rgb(187, 46, 105);
+            --seccolor:rgb(90, 90, 204);
+            --def:20px
+        }
+        *{
+            margin: 0;;
+            padding: 0;
+        }
+        .nav{
+            background-color: var(--arka);
+        }
+        .container{
+            background-color: var(--seccolor);
+        }
+        ul{
+            display: flex;
+        }
+        ul,li{
+            list-style: none;
+            padding: var(--def);
+            border: var(--def) inset yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Content</li>
+        </ul>
+    </div>
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet minima voluptatum repellendus quidem! Reiciendis neque ipsum sapiente! Delectus aut ullam ducimus velit facere? Cupiditate expedita harum repellat placeat sunt sapiente doloremque est vero reprehenderit? Eveniet ipsum, dolor ex sapiente numquam beatae assumenda id impedit est?
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,16 @@
+:root{
+    --arka:red;
+    --pad:20px;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li{
+    padding: var(--pad);
+    margin: 20px;
+    border: 12px inset var(--arka);
+
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .box1 {
+            background-color: aqua;
+            position: absolute;
+            top: 0px;
+            left: 3px;
+            /* position: sticky;
+            top: 0px;
+            height: 111px; */
+
+        }
+
+        .box2 {
+            background-color: rgb(170, 34, 16);
+        }
+
+        .box3 {
+            background-color: yellow;
+            /* position: relative; */
+            /* top: 49px;
+            left: 34px; */
+            /* position: fixed;
+            bottom: 0px;
+            left: 2vw; */
+        }
+
+        .box4 {
+            background-color: green;
+        }
+
+        .box {
+            border: 2px solid blue;
+            height: 200px;
+            width: 80vw;
+            padding: 3px;
+            margin: 3px;
+
+        }
+        .parent{
+            /* position: sticky; */
+            padding: 43px;
+            margin: 34px;
+            border: 3px dashed red;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="box box1">
+        </div>
+        <div class="box box2"></div>
+        <div class="box box3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed officiis ex quo nobis facilis perferendis ut repellendus quibusdam velit ea deserunt, quasi laboriosam? </div>
+        <div class="box box4"></div>
+    </div>
+</body>
+</html>
